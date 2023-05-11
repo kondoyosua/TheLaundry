@@ -6,6 +6,7 @@ import {
   Splash,
   Login,
   Home,
+  Account,
   Payment
 } from './screens';
 
@@ -22,6 +23,7 @@ export default function App() {
         <Stack.Screen name='Splash' component={Splash} />
         <Stack.Screen name='Login' component={Login} />
         <Stack.Screen name='Home' component={Home} />
+        <Stack.Screen name='Account' component={Account} />
         <Stack.Screen name='Payment' component={Payment} />
       </Stack.Navigator>
     </NavigationContainer>
