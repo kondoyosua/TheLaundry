@@ -4,7 +4,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 // screens
 import {
   Splash,
-  Login
+  Login,
+  Home
 } from './screens';
 
 
@@ -19,6 +20,7 @@ export default function App() {
       <Stack.Navigator initialRouteName='Splash' screenOptions={{headerShown: false}}>
         <Stack.Screen name='Splash' component={Splash} />
         <Stack.Screen name='Login' component={Login} />
+        <Stack.Screen name='Home' component={Home} />
       </Stack.Navigator>
     </NavigationContainer>
   );
