@@ -5,7 +5,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import {
   Splash,
   Login,
-  Home
+  Home,
+  Payment
 } from './screens';
 
 
@@ -21,6 +22,7 @@ export default function App() {
         <Stack.Screen name='Splash' component={Splash} />
         <Stack.Screen name='Login' component={Login} />
         <Stack.Screen name='Home' component={Home} />
+        <Stack.Screen name='Payment' component={Payment} />
       </Stack.Navigator>
     </NavigationContainer>
   );
